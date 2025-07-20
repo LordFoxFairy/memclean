@@ -1,0 +1,6 @@
+{
+    "auto_clean_enabled": true,
+    "clean_interval_minutes": 5,
+    "mem_threshold_percent": 80,
+    "display_metric": "mem"
+}

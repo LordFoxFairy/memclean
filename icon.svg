@@ -1,0 +1,53 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!--
+        MemClean 程序图标 SVG 源文件 (圆形进度条设计)
+        - 风格: 现代, 清晰, 专业
+        - 颜色: 绿/青渐变，深灰色背景
+        - 形状: 圆形进度条
+        - 内容: 显示数字 (示例为 "37")
+    -->
+    <defs>
+        <linearGradient id="progressGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#18E293"/> <!-- 亮绿色 -->
+            <stop offset="100%" stop-color="#00B2A0"/> <!-- 深青色 -->
+        </linearGradient>
+    </defs>
+
+    <!-- 1. 进度条背景轨道 -->
+    <circle
+        cx="128"
+        cy="128"
+        r="110"
+        stroke="#333333"
+        stroke-opacity="0.8"
+        stroke-width="24"
+        fill="none"
+    />
+
+    <!-- 2. 动态进度条 -->
+    <circle
+        cx="128"
+        cy="128"
+        r="110"
+        stroke="url(#progressGradient)"
+        stroke-width="24"
+        fill="none"
+        stroke-linecap="round"
+        transform="rotate(-90 128 128)"
+        stroke-dasharray="691"
+        stroke-dashoffset="435"
+    />
+
+    <!-- 3. 中间的数字 "37" -->
+    <text
+        x="50%"
+        y="50%"
+        dy="0.35em"
+        text-anchor="middle"
+        font-family="'Segoe UI', Arial, sans-serif"
+        font-size="100"
+        font-weight="bold"
+        fill="#333333">
+        37
+    </text>
+</svg>

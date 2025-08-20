@@ -2,6 +2,8 @@
 
 一款轻量级、智能化的Windows系统性能监视与优化工具。它以一个精致的动态图标驻留在您的任务栏，实时反馈系统状态，并提供强大的一键加速功能，让您的电脑时刻保持最佳性能。
 
+<img width="193" height="160" alt="image" src="https://github.com/user-attachments/assets/8f02df4a-068d-4e04-b8d5-45f4cdba864e" />
+
 <br>
 
 ## 目录
